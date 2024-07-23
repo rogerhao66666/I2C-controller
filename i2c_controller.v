@@ -137,7 +137,7 @@ always @(posedge clk or negedge rstn) begin
 		sda_out <= 1'b1;
 		sft_cnt <= 0;
 		i2c_scl_enable <= 1'b0;
-		sda_en <= 1'b0;
+		sda_en <= 1'b1;
 	end
 	else begin
 		state <= 9'b0;
