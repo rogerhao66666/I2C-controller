@@ -18,7 +18,7 @@
 //              half-bit of i2c_data data.  E.g. 100 MHz i_clk, CLK_PER_HALF_BIT = 2
 //              would create i2c_scl of 25 MHz.  Must be >= 2
 //
-// Auther:		Roger
+// Auther:      Roger
 ///////////////////////////////////////////////////////////////////////////////
 
 module i2c_controller
